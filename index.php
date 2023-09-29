@@ -1,4 +1,4 @@
-<!-- <?php session_start(); ?> -->
+<?php session_start(); ?>
 
 <!doctype html>
 <html lang="en">
@@ -22,6 +22,9 @@
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
+    <meta property="og:image" content="https://bramptonduo.ca/duo-condos.jpg"> 
+    <meta property="og:site_name" content="DUO Condos" />
+
     <link rel="stylesheet" href="images/favicon.ico">
 
     <link rel="stylesheet" href="css/silverBox.min.css">
@@ -506,7 +509,7 @@
         </script>
 
 
-        <!-- <?php
+        <?php
         if(
         isset($_SESSION['success'])
         ){
@@ -540,7 +543,7 @@
             <?php
                 unset($_SESSION['error']);
             }
-    ?> -->
+    ?>
 
         <script>
             // Change navbar background color on scroll

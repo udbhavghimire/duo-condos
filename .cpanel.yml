@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/shrutidu/bramptonduo.ca/
+    - export DEPLOYPATH=/home/bramp135/public_html/
     - /bin/cp -r * $DEPLOYPATH
