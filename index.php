@@ -12,6 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="..." crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/silverBox.min.css"> -->
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
+" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <title>DUO Condos - Brampton | Starting from High $500's</title>
@@ -25,7 +29,10 @@
     <meta property="og:image" content="https://bramptonduo.ca/duo-condos.jpg"> 
     <meta property="og:site_name" content="DUO Condos" />
 
-    <link rel="stylesheet" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="css/silverBox.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -483,7 +490,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
     -->
 
-        <script src="js/silverBox.min.js "></script>
+        <!-- <script src="js/silverBox.min.js "></script> -->
+        <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
+"></script>
+
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
         <script>
@@ -515,13 +527,12 @@
         ){
             ?>
         <script type="text/javascript " async>
-            silverBox({
-                title: {
-                    text: "Success ",
-                    alertIcon: "success ",
-                },
-                text: "Your Message has been received! ",
-            });
+       Swal.fire({
+  icon: 'success',
+  title: 'Success',
+  text: 'Your Message has been received!'
+
+});
         </script>
         <?php
             unset($_SESSION['success']);
@@ -532,13 +543,11 @@
             ){
                 ?>
             <script type="text/javascript " async>
-                silverBox({
-                    title: {
-                        text: "Error ",
-                        alertIcon: "error ",
-                    },
-                    text: "Your Message has not been received. ",
-                });
+                Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!'
+})s;
             </script>
             <?php
                 unset($_SESSION['error']);
