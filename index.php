@@ -523,8 +523,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
         <script type="text/javascript " async>
        Swal.fire({
   icon: 'success',
-  title: 'Success',
-  text: 'Your Message has been received!'
+  title: 'Thank you!',
+  text: 'We will reach out to you soon.'
 
 });
         </script>
