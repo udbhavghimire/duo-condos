@@ -520,7 +520,7 @@ textarea {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../images/hero1.png");
+    background: url("../images/hero2.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -588,7 +588,7 @@ textarea {
     #hero {
         width: 100%;
         height: 100vh;
-        background: url("../images/hero-sm.png");
+        background: url("../images/hero-sm-1.png");
         background-size: cover;
         background-position: center;
         position: relative;
