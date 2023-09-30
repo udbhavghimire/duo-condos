@@ -110,8 +110,8 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
 
 
 
-        <section class="pt-5 py-md-5">
-            <div class="pt-md-5 mt-md-5 py-md-5 py-0" id="about"></div>
+        <section class="">
+            <div class="pt-5 pt-md-0" id="about"></div>
             <div class="container px-3 pt-md-5 pt-0 mt-md-5 mt-0">
                 <div class="row  row-cols-1 row-cols-md-2 d-flex align-items-center">
                     <div class="col order-2 order-md-1 pt-5 pt-md-0">
@@ -131,9 +131,9 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
                                     Starting from High $500's
                                     $749.9k - High $949.9k
                                 </h3> -->
-                                    <h2 class="fw-bold fs-2 ex-boldd pb-3  ps-3 ps-md-0 ">
+                                    <h1 class="fw-bold fs-2 ex-boldd pb-3  ps-3 ps-md-0 ">
                                         DUO CONDOS BRAMPTON
-                                    </h2>
+                                    </h1>
                                     <h2 class="headline-textt headline-textt-sm">
                                         <Span class="fw-bold boldd">DUO Condos </Span> by National Homes and Brixen Developments, a new pre-construction condo development, is soon to rise at 245 Steeles Avenue West in Brampton's family-friendly Flowertown neighborhood. Featuring a unique saw-tooth
                                         profile balcony design, it offers residents access to ample green space along the Etobicoke Creek Trail, right in the heart of this historic community.
@@ -212,26 +212,21 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
                                         $5,000 on Signing
                                     </li>
                                     <li class="border-0 ">
-                                        2.5% Minus $5,000 in 30 Days
+                                    Balance to 5% in 30 days
                                     </li>
                                     <li class="border-0 ">
-                                        2.5% in 90 Days
+                                    5% in 120 days
                                     </li>
                                     <li class="border-0 ">
-                                        2.5% in 120 Days
+                                    2.5% in 240 days
                                     </li>
                                     <li class="border-0 ">
-                                        2.5% in 180 Days
+                                    2.5% in 300 days
                                     </li>
                                     <li class="border-0 ">
-                                        2.5% in 270 Days
+                                    5% on Occupancy
                                     </li>
-                                    <li class="border-0 ">
-                                        2.5% in 390 Days
-                                    </li>
-                                    <li class="border-0 ">
-                                        Balance to 20% on Occupancy
-                                    </li>
+                                    
                                 </ul>
                                 <h5 class="fw-bold fw-bolder pt-3 boldd"> + Free Assignment</h5>
                             </div>
@@ -245,29 +240,28 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
                             <div>
                                 <ul class="mt-3 mylist2 headline-text ">
                                     <li class="border-0 ">
-                                        24/7 Concierge
+                                    Lobby
                                     </li>
                                     <li class="border-0 ">
                                         Gym
                                     </li>
                                     <li class="border-0 ">
-                                        Lounge
+                                    Co-working Space
                                     </li>
                                     <li class="border-0 ">
-                                        Meeting Rooms
+                                    Kids' Playroom
                                     </li>
                                     <li class="border-0 ">
-                                        Open-Concept Co-Work Space
+                                    Party Room
                                     </li>
                                     <li class="border-0 ">
-                                        Parcel Room
+                                    Dining and Lounge Areas
                                     </li>
                                     <li class="border-0 ">
-                                        Party Room
+                                    Rooftop with BBQs
                                     </li>
-                                    <li class="border-0 ">
-                                        Rooftop Terrace with BBQs
-                                    </li>
+                                    
+                                   
                                 </ul>
                             </div>
 
