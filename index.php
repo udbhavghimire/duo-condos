@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXMM7VGELR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YXMM7VGELR');
+</script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -168,10 +177,10 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
             <div class="container pt-5" id="gallery">
                 <div class="my-md-5 my-3"></div>
                 <div class="pt-md-5 pt-5" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="50">
-                    <h2 class="fw-bold fs-1 pb-2 ex-boldd ps-3 ps-md-0 d-flex justify-content-center brand-color">
+                    <h2 class="fw-bold fs-1 pb-2 ex-boldd ps-3 ps-md-0 d-flex justify-content-center align-items-center brand-color">
                         Beautiful Inside and Out
                     </h2>
-                    <span class=" d-flex justify-content-center custom-underline pb-3 text-center ">Exquisite Interior with location second to none</span>
+                    <span class=" d-flex justify-content-center align-items-center custom-underline pb-3 text-center ">Exquisite Interior with location second to none</span>
                     <div>
                         <section>
                             <div class="container">
@@ -275,10 +284,10 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
         <section class="pt-md-5 pt-2" id="features">
             <div class="container">
                 <div class="my-md-5 my-sm-4"></div>
-                <h2 class="fw-bold fs-1 pb-2 text-center justify-content-center py-md-2 py-5 mt-2 mt-md-0 ex-boldd ">
+                <h2 class="fw-bold fs-1 pb-2 text-center d-flex justify-content-center align-items-center py-md-2 py-5 mt-2 mt-md-0 ex-boldd ">
                     Why DUO ?</span>
                 </h2>
-                <span class=" d-flex justify-content-center custom-underline pb-3 text-center ">Why should you buy Duo Condo in Brampton?</span>
+                <span class=" d-flex justify-content-center align-items-center custom-underline pb-3 text-center ">Why should you buy Duo Condo in Brampton?</span>
                 <div>
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center g-4 ">
                         <div class="col">
@@ -340,7 +349,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
                     <h2 class="fw-bold fs-1 mb-0 text-center justify-content-center ex-boldd">
                         <span class="mx-1 ">DUO Condos - Location</span> </span>
                     </h2>
-                    <span class=" d-flex justify-content-center custom-underline pb-3 text-center ">245 Steeles Avenue West, Brampton, ON</span>
+                    <span class=" d-flex justify-content-center align-items-center custom-underline pb-3 text-center ">245 Steeles Avenue West, Brampton, ON</span>
 
                     <div class="">
 
