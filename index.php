@@ -140,7 +140,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
                                     Starting from High $500's
                                     $749.9k - High $949.9k
                                 </h3> -->
-                                    <h1 class="fw-bold fs-2 ex-boldd pb-3  ps-3 ps-md-0 ">
+                                    <h1 class="fw-bold fs-1 ex-boldd pb-3  ps-3 ps-md-0 ">
                                         DUO CONDOS BRAMPTON
                                     </h1>
                                     <h2 class="headline-textt headline-textt-sm">
