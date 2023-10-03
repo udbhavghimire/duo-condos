@@ -21,6 +21,7 @@ $mail->Port = 587; // TCP port to connect to
 
 $mail->setFrom('info@bramptonduo.ca', $_POST['name']);
 $mail->addAddress('info@savemaxglobalrealty.com');
+$mail->addAddress('info@homebaba.ca');
 ;
 
 $mail->addReplyTo($_POST['email']);
