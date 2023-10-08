@@ -528,15 +528,17 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
         if(
         isset($_SESSION['success'])
         ){
+            
+             
             ?>
-        <script type="text/javascript " async>
+        <!-- <script type="text/javascript " async>
        Swal.fire({
   icon: 'success',
   title: 'Thank you!',
   text: 'We will reach out to you soon.'
 
 });
-        </script>
+        </script> -->
         <?php
             unset($_SESSION['success']);
         }
