@@ -21,10 +21,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="..." crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/silverBox.min.css"> -->
-    <link href="
-https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
-" rel="stylesheet">
+    <link rel="stylesheet" href="css/silverBox.min.css">
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <title>DUO Condos - Brampton | Starting from High $500's</title>
@@ -493,10 +491,10 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.min.css
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js " integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF " crossorigin="anonymous "></script>
     -->
 
-        <!-- <script src="js/silverBox.min.js "></script> -->
-        <script src="
+        <script src="js/silverBox.min.js "></script>
+        <!-- <script src="
 https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
-"></script>
+"></script> -->
 
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
@@ -524,22 +522,21 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
         </script>
 
 
-        <?php
+<?php
         if(
         isset($_SESSION['success'])
         ){
-            
-             
             ?>
-        <!-- <script type="text/javascript " async>
-       Swal.fire({
-  icon: 'success',
-  title: 'Thank you!',
-  text: 'We will reach out to you soon.'
-
+    <!-- <script type="text/javascript" async>
+       silverBox({
+	title: {
+		text: "Thankyou",
+		alertIcon: "success",
+	},
+	text: "We will get back to you soon.",
 });
-        </script> -->
-        <?php
+    </script> -->
+    <?php
             unset($_SESSION['success']);
         }
 
@@ -547,14 +544,16 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js
             isset($_SESSION['error'])
             ){
                 ?>
-            <script type="text/javascript " async>
-                Swal.fire({
-  icon: 'error',
-  title: 'Oops...',
-  text: 'Something went wrong!'
-})s;
-            </script>
-            <?php
+    <script type="text/javascript" async>
+           silverBox({
+	title: {
+		text: "Error",
+		alertIcon: "error",
+	},
+	text: "Your Message has not been received.",
+});
+    </script>
+    <?php
                 unset($_SESSION['error']);
             }
     ?>

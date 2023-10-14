@@ -12,16 +12,16 @@ require './PHPMailer/src/SMTP.php';
 $mail = new PHPMailer;
 
 $mail->isSMTP(); // Set mailer to use SMTP
-$mail->Host = 'hp352.servername.online'; // Specify main and backup SMTP servers
+$mail->Host = 'mail.bramptonduo.ca'; // Specify main and backup SMTP servers
 $mail->SMTPAuth = true; // Enable SMTP authentication
 $mail->Username = 'info@bramptonduo.ca'; // SMTP username
-$mail->Password = 'mail@bramptonduo'; // SMTP password
+$mail->Password = 'bramptonduo'; // SMTP password
 $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587; // TCP port to connect to
+$mail->Port = 587 ; // TCP port to connect to
 
 $mail->setFrom('info@bramptonduo.ca', $_POST['name']);
-$mail->addAddress('info@savemaxglobalrealty.com');
-$mail->addAddress('milan@homebaba.ca');
+// $mail->addAddress('info@savemaxglobalrealty.com');
+$mail->addAddress('ghimireudbhav@gmail.com');
 ;
 
 $mail->addReplyTo($_POST['email']);
