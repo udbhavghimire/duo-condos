@@ -489,8 +489,9 @@
                             will go to Savemax Global Realty Inc. </span>
                         <div class="list pt-md-5 pt-3 d-md-block d-none ">
                             <p class=" fw-bold">
-                                Pre construction homes in Brampton <a href="https://condomonk.ca/brampton"
-                                    target="_blank " class="text-dark text-decoration-none ">
+                                <a href="https://condomonk.ca/brampton " target="_blank "
+                                    class="text-dark text-decoration-none ">
+                                    <strong>Pre construction homes in Brampton</strong> </a>
                             </p>
 
                         </div>
@@ -525,8 +526,9 @@
 
                 <div class="list mt-5 pt-5 d-md-none d-block center-sm ">
                     <p class=" fw-bold">
-                        Pre construction homes in Brampton <a href="https://condomonk.ca/brampton" target="_blank "
+                        <a href="https://condomonk.ca/brampton " target="_blank "
                             class="text-dark text-decoration-none ">
+                            <strong>Pre construction homes in Brampton</strong> </a>
                     </p>
 
                 </div>
